@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+for dir in */; do 
+	dirname=${dir%/}
+	stow "$dirname"
+	echo "exec: stew $dirname"
+	
+done
+
+
+chsh -s $(which zsh)
+echo "set zsh as default"

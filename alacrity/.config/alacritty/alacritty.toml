@@ -1,0 +1,29 @@
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 13.0
+
+
+[font.offset]
+y = 2
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Refular"
+
+[window] 
+opacity = 0.9
+decorations = "buttonless"
+
+[window.padding]
+x = 7
+y = 0
+
+[general]
+import = ["/home/Richard/.config/alacritty/themes/cobalt2.toml"]
+
+[terminal]
+[terminal.shell]
+program = "tmux"
+
