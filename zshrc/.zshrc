@@ -15,6 +15,7 @@ export DOTFILES="$HOME/.dotfiles"
 export SCRIPTS="$REPOS/scripts"
 export DOCUMENTS=$HOME/Documents
 export BRAIN="$DOCUMENTS/2brain"
+export ZETTELKASTEN="$REPOS/zettelkasten"
 
 export GITUSER="zimmerling"
 
@@ -68,6 +69,7 @@ alias urepos="cd $REPOS/uni/lectures"
 alias docs="cd $DOCUMENTS"
 alias 2b="cd $BRAIN"
 alias nrepos="cd $REPOS/nxtb"
+alias kasten="cd $ZETTELKASTEN"
 
 ## ls
 alias ls='ls --color=auto'
