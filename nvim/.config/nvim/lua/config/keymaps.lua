@@ -15,7 +15,6 @@ vim.keymap.set("n", "<leader>d", "<cmd>r!gendate<cr>", { desc = "Insert date" })
 vim.keymap.set("n", "<leader>h1", "<cmd>r!gendate h 1<cr>", { desc = "Insert date h1" })
 vim.keymap.set("n", "<leader>h2", "<cmd>r!gendate h 2<cr>", { desc = "Insert date h2" })
 
-
 -- lsp
 vim.keymap.set("n", "<leader>S", "<cmd>LspStop<CR>", { desc = "LspStop" })
 
@@ -28,7 +27,7 @@ vim.keymap.set(
   "<leader>rlt",
   "<cmd>lua require('textcase').current_word('to_title_case')<CR>",
   { desc = "Replace Line Title" }
-
+)
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
