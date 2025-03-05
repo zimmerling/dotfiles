@@ -100,3 +100,7 @@ function staging() {
 function production() {
 	eval "$(aws configure export-credentials --profile nextbike-production --format env)"
 }
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/Richard/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

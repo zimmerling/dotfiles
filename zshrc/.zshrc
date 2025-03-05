@@ -16,6 +16,7 @@ export SCRIPTS="$REPOS/scripts"
 export DOCUMENTS=$HOME/Documents
 export BRAIN="$DOCUMENTS/2brain"
 export ZETTELKASTEN="$REPOS/zettelkasten"
+export LAB="$REPOS/lab"
 
 export GITUSER="zimmerling"
 
@@ -70,6 +71,7 @@ alias docs="cd $DOCUMENTS"
 alias 2b="cd $BRAIN"
 alias nrepos="cd $REPOS/nxtb"
 alias kasten="cd $ZETTELKASTEN"
+alias lab="cd $LAB"
 
 ## ls
 alias ls='ls --color=auto'
@@ -161,3 +163,7 @@ function staging() {
 function production() {
 	eval "$(aws configure export-credentials --profile nextbike-production --format env)"
 }
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/Richard/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
